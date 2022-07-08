@@ -1,3 +1,3 @@
 A Webite for Njord, a wind farm enterprise.
 
-This website is in active development.
+This is a project using pure HTML, CSS and JavaScript
