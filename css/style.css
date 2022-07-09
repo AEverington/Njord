@@ -1,0 +1,486 @@
+/*/////// GLOBAL STYLE SETTINGS-----------------------------////////*/
+
+/*//// FONTS ////*/
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url(../resources/sofiapro-light.woff);
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url(../resources/sofiapro-medium-webfont.woff2);
+    font-weight: bold;
+}
+
+/*/// Headings ///*/
+
+h1 {
+    font-size: 3rem;
+    margin: 20px 0px;
+}
+
+h2 {
+    font-size: 2.25rem;
+    margin: 20px 0px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+
+h4 {
+    font-size: 1.125rem;
+    margin: 20px 0px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.green-highlight {
+    color: var(--Mint);
+}
+
+/*/// Paragraphs ///*/
+
+p {
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+p em {
+    color: var(--Mint);
+}
+
+/*//// Links ////*/
+
+a {
+    text-decoration: none;
+    color: var(--Navy);
+}
+
+/*//// Buttons ////*/
+
+button {
+    font-family: 'Sofia Pro';
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin: 10px 0px;
+    color: var(--White);
+    background-color: var(--Mint);
+    border: none;
+    box-shadow: 3px 4px 0px 1px var(--Moss);
+}
+
+button:hover {
+    box-shadow: none;
+    position: relative;
+    left: 3px;
+    top: 4px;
+}
+
+/*//// COLOURS ////*/
+
+:root {
+    --White: #fff;
+    --Cloud: #F6F6F6;
+    --Fog: #E2E2E2;
+    --Steel: #999;
+    --Mint: #33DBA9;
+    --Moss: #38A887;
+    --Navy: #3A4764;
+  }
+
+  .dark {
+    background-color: var(--Navy);
+    color: var(--White);
+  }
+
+  .dark a {
+    color: var(--White);
+  }
+
+  .grey {
+    background-color: var(--Cloud);
+  }
+
+  /*//// BODY STYLES ////*/
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0px;
+    font-family: 'Sofia Pro';
+    font-size: 16px;
+    color: var(--Navy);
+    background-color: var(--White);
+  }
+
+/*/////// HEADER--------------------------------///////*/
+
+/*//// Layout ////*/
+
+header {
+    position: sticky;
+    top: 0px;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+    z-index: 999;
+}
+
+#logo {
+    display: block;
+    height: 40px;
+}
+
+#header-container {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-nav {
+    flex-basis: 60%;
+}
+
+#header-button {
+    flex-basis: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#social-links {
+    flex-basis: 20%;
+}
+
+.social-link {
+    height: 20px;
+}
+
+#nav-list, #social-links {
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*//// Styling ////*/
+
+header {
+    border-bottom: solid 1px var(--Fog);
+    background-color: var(--White);
+}
+
+.nav-list-item a {
+    font-weight: bold;
+    color: var(--Steel);
+    transition: color 0.3s ease;
+}
+
+.nav-list-item a:hover {
+    color: var(--Navy);
+}
+
+/*//////// FOOTER----------------------------///////*/
+
+#footer-content {
+    padding: 5% 10% 2.5% 10%;
+    height: 100%;
+}
+
+footer .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#newsletter-wrapper {
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#links-wrapper {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .col:nth-child(3) {
+    flex-basis: 40%;
+}
+
+footer .col a {
+    margin: 7.5px 0px;
+}
+
+#divider {
+    background-color: var(--White);
+    height: 1px;
+    margin: 5% 0% 1% 0%;
+}
+
+#sub-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-social-links {
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    width: 7.5%;
+    justify-content: space-between;
+}
+
+/*/////// ON PAGE---------------------------------///////*/
+
+/*///// HOME-----------------/////*/
+
+/*/// Banner Section ///*/
+
+#home-banner {
+    height: auto;
+}
+
+#home-banner .section-content {
+    height: 100%;
+    display: flex;
+    align-content: stretch;
+    padding: 5% 10%;
+}
+
+#banner-text-container, #banner-image-container {
+    flex-basis: 50%;
+}
+
+#banner-text-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7.5% 7.5% 7.5% 0%;
+}
+
+#banner-image-container {
+    padding: 5% 0% 5% 7.5%;
+}
+
+#banner-image {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background-image: url(../resources/greyplaceholder.png);
+    background-repeat: no-repeat;
+}
+
+/*//// About Section ////*/
+
+#home-about .section-content {
+    height: 100%;
+    padding: 5% 10%;
+}
+
+#home-about #section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home-about #triple-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7.5%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.col img {
+    height: 40px;
+}
+
+/*//// Card Section ////*/
+
+#card-section .section-content {
+    height: 100%;
+    padding: 5% 10%;
+}
+
+.image-card {
+    border-radius: 10px;
+    border: solid 1px var(--Fog);
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.image-card img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.image-card .text-wrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image-card:nth-child(2) {
+    margin-top: 5%;
+}
+
+/*//// Testimonials ////*/
+
+#testimonials .section-content {
+    height: 100%;
+    padding: 5% 0%;
+    overflow-x: hidden;
+}
+
+#track {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 300vw;
+    position: relative;
+    transition: all 1s ease;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    padding: 0% 1.5%;
+}
+
+.item p {
+    text-align: center;
+}
+
+.item img {
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+}
+
+#testimonial-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.testimonial-nav-button {
+    margin: 0 5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--Steel)
+}
+
+.active {
+    background-color: var(--Mint);
+}
+
+/*//// Services ////*/
+
+#home-services .section-content {
+    height: 100%;
+    padding: 5% 10%;
+    position: relative;
+}
+
+#home-services .section-background {
+    background-image: url(../resources/backgroundicons.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    left: 30%;
+    top: 0;
+}
+
+#home-services .section-title {
+    text-align: center;
+    padding: 0% 20%;
+}
+
+#home-services #double-col {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#home-services .col {
+    background-color: var(--Navy);
+    color: var(--White);
+    border-radius: 20px;
+    flex-basis: 45%;
+    padding: 3%;
+}
+
+/*//// Call to Action ////*/
+
+#call-to-a {
+    position: relative;
+}
+
+#call-to-a .section-background {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../resources/greyplaceholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#call-to-a .section-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    padding: 5% 40% 5% 10%;
+}
+
