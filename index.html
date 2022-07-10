@@ -2,6 +2,7 @@
 <html lang="en-GB">
     <head>
         <title>Njord Wind Power</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta charset="utf-8">
         <meta name="author" content="Alistair Everington">
         <meta name="description" content="Njord Wind Power Culpa aute quis culpa quis et sunt elit mollit ut do est eu ex Lorem. Sint elit ullamco do incididunt ullamco incididunt aute cillum. Incididunt proident in aliquip voluptate aliquip vol.">
@@ -10,8 +11,34 @@
         <script src="./javascript/script.js" defer></script>
     </head>
     <body>
+        <div id="mobile-menu">
+            <div id="menu-nav">
+                <a href="#" class="menu-link">Home</a>
+                <a href="#" class="menu-link">About</a>
+                <a href="#" class="menu-link">Services</a>
+                <a href="#" class="menu-link">Case Studies</a>
+            </div>
+            <div id="menu-button">
+                <a href="#"><button type="button" class="menu-button">Contact Us</button></a>
+            </div>
+            <div id="menu-socials">
+                <ul id="menu-socials-list">
+                    <li>
+                        <a><img src="./resources/facebookicon.png" class="social-icon"></a>
+                    </li>
+                    <li>
+                        <a><img src="./resources/instagramicon.png" class="social-icon"></a>
+                    </li>
+                    <li>
+                        <a><img src="./resources/linkedinicon.png" class="social-icon"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <header>
-            <a><img src="./resources/njordlogo.png" id="logo"></a>
+            <div id="logo-container">
+                <a><img src="./resources/njordlogo.png" id="logo"></a>
+            </div>
             <div id="header-container">
                 <nav id="header-nav">
                     <ul id="nav-list">
@@ -33,6 +60,11 @@
                         <a><img src="./resources/linkedinicon.png" class="social-link"></a>
                     </li>
                 </ul>
+            </div>
+            <div id="burger-container">
+                <div id="burger-top"></div>
+                <div id="burger-middle"></div>
+                <div id="burger-bottom"></div>
             </div>
         </header>
         <section id="home-banner">
@@ -94,7 +126,7 @@
             </div>
         </section>
         <section id="testimonials" class="grey">
-            <div class="section-content">            
+            <div class="fw-section-content">            
                 <div id="track" style="right: 100vw;">
                     <div class="item">
                         <img src="./resources/greyplaceholder.png">
@@ -155,9 +187,11 @@
         <section id="call-to-a">
             <div class="section-background"></div>
             <div class="section-content">
-                <h2>Endless energy. Limitless opportunity.</h2>
-                <p>Maecenas eros donec non sapien id duis per, est tristique ridiculus eget dictumst nisi curabitur, scelerisque eu condimentum posuere mattis suscipit. Porta maecenas convallis facilisi lectus sodales curabitur duis tempor praesent.</p>
-                <a href="#"><button type="button">Contact Us</button></a>
+                <div class="content-wrapper">
+                    <h2>Endless energy. Limitless opportunity.</h2>
+                    <p>Maecenas eros donec non sapien id duis per, est tristique ridiculus eget dictumst nisi curabitur, scelerisque eu condimentum posuere mattis suscipit. Porta maecenas convallis facilisi lectus sodales curabitur duis tempor praesent.</p>
+                    <a href="#"><button type="button">Contact Us</button></a> 
+                </div>
             </div>
         </section>
         <footer class="dark">
