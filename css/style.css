@@ -612,4 +612,14 @@ footer .col a {
     top: 4px;
 }
 
+/*////  Consultations ////*/
+
+#book-a-consultation .section-content {
+    padding: 2.5% 10%;
+}
+
+#book-a-consultation .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 

@@ -271,4 +271,12 @@
         flex-direction: column;
     }
 
+    #book-a-consultation .section-content {
+        padding: 5% 10%;
+    }
+
+    #book-a-consultation .content-wrapper {
+        flex-direction: column;
+    }
+
 }
