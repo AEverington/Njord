@@ -1,0 +1,117 @@
+/*///// Large Screen Sizes-----/////*/
+
+@media (min-width: 2000px) {
+
+    /*////GLOBAL////*/
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    p, a, button, .ml-form-embedContainer input, .ml-form-embedContainer button, .ml-form-successContent, .form-field, .submit-button {
+        font-size: 1.2rem !important;
+    }
+
+    /*//// HEADER ////*/ 
+
+    #header-nav {
+        flex-basis: 80%;
+    }
+
+    #header-button {
+        flex-basis: 10%;
+    }
+
+    #social-links {
+        flex-basis: 10%;
+    }
+
+    /*//// SECTION PADDING ////*/
+
+    .section-content {
+        padding: 5% 25%;
+    }
+
+}
+
+/*///// Small Screen Sizes-----/////*/
+
+@media (max-width: 1300px) {
+
+    /*////GLOBAL ////*/
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    p, a, button, .ml-form-embedContainer input, .ml-form-embedContainer button, .ml-form-successContent, .form-field, .submit-button {
+        font-size: 0.8rem !important;
+    }
+   
+    /*/// HEADER ///*/
+
+    #header-container {
+        width: 60%;
+    }
+
+    .social-link {
+        height: 15px;
+    }
+
+}
+
+/*///// LARGE TABLET ----------/////*/
+
+@media screen and (max-width: 1050px) {
+
+    /*////GLOBAL ////*/
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-size: 0.8rem;
+    }
+
+    p, a, button, .ml-form-embedContainer input, .ml-form-embedContainer button, .ml-form-successContent, .form-field, .submit-button {
+        font-size: 0.7rem !important;
+    }
+
+    #mobile-menu, #burger-container {
+        display: none;
+    }
+
+}
