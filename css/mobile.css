@@ -28,6 +28,10 @@
         font-size: 0.8rem !important;
     }
 
+    .section-content {
+        padding: 10%;
+    }
+
     /*///// HEADER /////*/
 
     header {
@@ -263,6 +267,99 @@
 
     #call-to-a .content-wrapper {
         width: 100%;
+    }
+
+    /*//// SERVICES ////*/
+
+    /*/// Services Banner ///*/
+
+    #services-banner .section-content {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    #services-banner .content-wrapper {
+        padding: 5%;
+        width: auto;
+    }
+
+    #services-banner .image-wrapper {
+        padding: 5%;
+        width: auto;
+        height: 200px;
+    }
+
+    /*/// Press Icons ///*/
+
+    #featured-in .section-content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #featured-in .section-title {
+        width: auto;
+        justify-content: center;
+    }
+
+    #featured-in .content-wrapper {
+        flex-direction: column;
+        width: auto;
+        margin-top: 5%;
+    }
+
+    .press-logo {
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    .press-logo img {
+        height: 15px;
+    }
+
+    /*/// Services Main ///*/
+
+    #services-main .section-background {
+        display: none;
+    }
+
+    #services-main .section-title {
+        width: auto;
+        text-align: left;
+    }
+
+    #services-main .content-wrapper {
+        flex-direction: column;
+    }
+
+    #services-main .col {
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    /*/// Six Steps ///*/
+
+    #six-steps .content-wrapper {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+
+    /*/// Faq's ///*/
+
+    #faqs .section-content {
+        flex-direction: column;
+    }
+
+    #faqs .section-title {
+        width: auto;
+    }
+
+    #faqs .content-wrapper {
+        width: auto;
+        margin-top: 5%;
+    }
+
+    .open {
+        height: 120px !important;
     }
 
     /*//// CONTACT ////*/

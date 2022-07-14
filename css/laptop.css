@@ -20,7 +20,7 @@
         font-size: 1.4rem;
     }
 
-    p, a, button, .ml-form-embedContainer input, .ml-form-embedContainer button, .ml-form-successContent, .form-field, .submit-button {
+    p, a, button, li, .ml-form-embedContainer input, .ml-form-embedContainer button, .ml-form-successContent, .form-field, .submit-button {
         font-size: 1.2rem !important;
     }
 
@@ -42,6 +42,12 @@
 
     .section-content {
         padding: 5% 25%;
+    }
+
+    /*//// FAQ DROPDOWN SIZE ////*/
+
+    .open {
+        height: 100px !important;
     }
 
 }
@@ -68,7 +74,7 @@
         font-size: 1rem;
     }
 
-    p, a, button, .ml-form-embedContainer input, .ml-form-embedContainer button, .ml-form-successContent, .form-field, .submit-button {
+    p, a, button, li, .ml-form-embedContainer input, .ml-form-embedContainer button, .ml-form-successContent, .form-field, .submit-button {
         font-size: 0.8rem !important;
     }
    
@@ -80,6 +86,18 @@
 
     .social-link {
         height: 15px;
+    }
+
+    /*//// SERVICES PRESS ICON SIZE ////*/
+
+    .press-logo img {
+        height: 15px;
+    }
+
+    /*//// FAQ DROPDOWN SIZE ////*/
+
+    .open {
+        height: 70px !important;
     }
 
 }
@@ -106,12 +124,16 @@
         font-size: 0.8rem;
     }
 
-    p, a, button, .ml-form-embedContainer input, .ml-form-embedContainer button, .ml-form-successContent, .form-field, .submit-button {
+    p, a, button, li, .ml-form-embedContainer input, .ml-form-embedContainer button, .ml-form-successContent, .form-field, .submit-button {
         font-size: 0.7rem !important;
     }
 
     #mobile-menu, #burger-container {
         display: none;
+    }
+
+    .press-logo img {
+        height: 10px;
     }
 
 }

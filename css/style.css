@@ -114,6 +114,10 @@ button:hover {
     background-color: var(--Cloud);
   }
 
+  .dgrey {
+    background-color: var(--Fog);
+  }
+
   /*//// BODY STYLES ////*/
 
   * {
@@ -530,6 +534,198 @@ footer .col a {
 
 #call-to-a .content-wrapper {
     width: 50%;
+}
+
+/*///// SERVICES-----------------/////*/
+
+/*//// Banner Section ////*/
+
+#services-banner .section-content {
+    display: flex;
+    align-items: stretch;
+}
+
+#services-banner .content-wrapper {
+    width: 50%;
+    padding: 7.5% 0% 7.5% 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#services-banner .image-wrapper {
+    width: 50%;
+    padding: 5% 7.5% 5% 0%;
+}
+
+#services-banner .banner-image {
+    height: 100%;
+    width: 100%;
+    background-image: url("../resources/greyplaceholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/*//// Press Section ////*/
+
+#featured-in .section-content {
+    display: flex;
+    padding: 2.5% 10%;
+}
+
+#featured-in .section-title {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+#featured-in .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.press-logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.press-logo img {
+    height: 25px;
+}
+
+
+/*//// Services Main ////*/
+
+#services-main {
+    position: relative;
+}
+
+#services-main .section-background {
+    position: absolute;
+    background-image: url('../resources/backgroundicons.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 50%;
+    height: 100px;
+    left: 25%;
+}
+ 
+#services-main .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services-main .section-title {
+    text-align: center;
+    width: 50%;
+}
+
+#services-main .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5%;
+}
+
+#services-main .col {
+    padding: 5%;
+    border-radius: 25px;
+    width: 30%;
+}
+
+#services-main .col ul {
+    padding-left: 20px;
+}
+
+
+#services-main .col li {
+    margin-bottom: 5%; 
+}
+
+/*//// Six Steps ////*/
+
+#six-steps .section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+#six-steps .content-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-auto-rows: auto;
+    column-gap: 10%;
+}
+
+#six-steps .card {
+    margin-top: 10%;
+}
+
+#six-steps .content-wrapper img {
+    height: 50px;
+}
+
+/*//// FAQS ////*/
+
+#faqs .section-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#faqs .section-title {
+    width: 30%;
+}
+
+#faqs .content-wrapper {
+    width: 60%;
+}
+
+#faq-wrapper {
+    border-radius: 25px;
+    border: solid 1px var(--Fog);
+}
+
+.question {
+    border-bottom: solid 1px var(--Fog);
+    padding: 1% 2.5%;
+}
+
+.question:nth-last-child {
+    border-bottom: none;
+}
+
+.question-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown-icon {
+    height: 10px;
+    width: 30px;
+    background-image: url('../resources/dropdownicon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transition: transform 0.25s ease;
+}
+
+.answer {
+    overflow: hidden;
+    height: 0px;
+    transition: height 0.25s ease;
+}
+
+.open {
+    height: 80px !important;
 }
 
 /*///// CONTACT-----------------/////*/
