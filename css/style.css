@@ -359,7 +359,7 @@ footer .col a {
     border-radius: 10px;
     height: 100%;
     width: 100%;
-    background-image: url(../resources/greyplaceholder.png);
+    background-image: url(../resources/turbineimageone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -449,10 +449,34 @@ footer .col a {
     text-align: center;
 }
 
-.item img {
+.testimonial-hs {
     height: 95px;
     width: 95px;
     border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#paul-img {
+    background-image: url('../resources/paulhs.jpg');
+}
+
+#samuel-img {
+    background-image: url('../resources/samuelhs.jpg');
+}
+
+#richard-img {
+    background-image: url('../resources/richardhs.jpg');
+}
+
+#lena-img {
+    background-image: url('../resources/lenahs.jpg');
+}
+
+#emily-img {
+    background-image: url('../resources/emilyhs.jpg');
+    background-size: 150%;
+    background-position: 40%;
 }
 
 #testimonial-nav {
@@ -522,9 +546,11 @@ footer .col a {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url(../resources/greyplaceholder.png);
+    background-image: url(../resources/turbineimagetwo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 100% 75%;
+    filter: brightness(70%);
 }
 
 #call-to-a .section-content {
@@ -561,7 +587,7 @@ footer .col a {
 #services-banner .banner-image {
     height: 100%;
     width: 100%;
-    background-image: url("../resources/greyplaceholder.png");
+    background-image: url("../resources/turbineimagethree.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -698,7 +724,7 @@ footer .col a {
     padding: 1% 2.5%;
 }
 
-.question:nth-last-child {
+.question:last-child {
     border-bottom: none;
 }
 
